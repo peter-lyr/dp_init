@@ -5,7 +5,7 @@ Data              = vim.fn.stdpath 'data' .. '\\'
 DataSub           = Data .. 'DataSub\\'
 
 DataSubStartupTxt = DataSub .. 'startup.txt'
-DataSubTreeSitter = DataSub .. 'TreeSitter\\'
+DataSubTreeSitter = DataSub .. 'TreeSitter'
 DataSubMason      = DataSub .. 'Mason\\'
 
 Tab4SpaceFts      = {
