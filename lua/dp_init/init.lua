@@ -1,12 +1,11 @@
 -- Copyright (c) 2024 liudepei. All Rights Reserved.
 -- create at 2024/04/03 19:32:26 星期三
 
-Data              = vim.fn.stdpath 'data' .. '\\'
-DataSub           = Data .. 'DataSub\\'
+DataSub           = vim.fn.stdpath 'data' .. '\\DataSub\\'
 
 DataSubStartupTxt = DataSub .. 'startup.txt'
 DataSubTreeSitter = DataSub .. 'TreeSitter'
-DataSubMason      = DataSub .. 'Mason\\'
+DataSubMason      = DataSub .. 'Mason'
 
 Tab4SpaceFts      = {
   'c', 'cpp',
