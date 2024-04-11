@@ -13,6 +13,13 @@ Tab4SpaceFts      = {
   'ld',
 }
 
+DoNotCloseFileTypes = {
+  'NvimTree',
+  'aerial',
+  'qf',
+  'fugitive',
+}
+
 if vim.fn.isdirectory(DataSub) == 0 then
   vim.fn.mkdir(DataSub)
 end
