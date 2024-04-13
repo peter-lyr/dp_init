@@ -10,6 +10,9 @@ DataSubMason        = DataSub .. 'Mason'
 Nvim                = vim.fn.stdpath 'config'
 Depei               = vim.fn.expand '$HOME' .. '\\DEPEI'
 
+CurRoot             = {}
+CurRoots            = {}
+
 Tab4SpaceFts        = {
   'c', 'cpp',
   'python',
