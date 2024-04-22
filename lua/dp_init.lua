@@ -4,11 +4,16 @@
 DataSub             = vim.fn.stdpath 'data' .. '\\DataSub\\'
 
 DataSubStartupTxt   = DataSub .. 'startup.txt'
+RestartFlagTxt      = DataSub .. 'restart-flag.txt'
+
 DataSubTreeSitter   = DataSub .. 'TreeSitter'
 DataSubMason        = DataSub .. 'Mason'
 
 Nvim                = vim.fn.stdpath 'config'
 Depei               = vim.fn.expand '$HOME' .. '\\DEPEI'
+DepeiTemp           = vim.fn.expand '$HOME' .. '\\DepeiTemp'
+
+RestartNvimQtBat    = DepeiTemp .. '\\restart-nvim-qt.bat'
 
 CurRoot             = {}
 CurRoots            = {}
@@ -32,4 +37,8 @@ end
 
 if vim.fn.isdirectory(Depei) == 0 then
   vim.fn.mkdir(Depei)
+end
+
+if vim.fn.isdirectory(DepeiTemp) == 0 then
+  vim.fn.mkdir(DepeiTemp)
 end
