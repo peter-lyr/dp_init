@@ -3,9 +3,6 @@
 
 DataSub             = vim.fn.stdpath 'data' .. '\\DataSub\\'
 
-DataSubStartupTxt   = DataSub .. 'startup.txt'
-RestartFlagTxt      = DataSub .. 'restart-flag.txt'
-
 DataSubTreeSitter   = DataSub .. 'TreeSitter'
 DataSubMason        = DataSub .. 'Mason'
 
