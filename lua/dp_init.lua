@@ -10,8 +10,9 @@ DataSubTreeSitter   = DataSub .. 'TreeSitter'
 DataSubMason        = DataSub .. 'Mason'
 
 Nvim                = vim.fn.stdpath 'config'
-Depei               = vim.fn.expand '$HOME' .. '\\DEPEI'
-DepeiTemp           = vim.fn.expand '$HOME' .. '\\DepeiTemp'
+Home                = vim.fn.expand '$HOME'
+Depei               = Home .. '\\DEPEI'
+DepeiTemp           = Home .. '\\DepeiTemp'
 
 RestartNvimQtBat    = DepeiTemp .. '\\restart-nvim-qt.bat'
 
