@@ -11,7 +11,7 @@ Home                = vim.fn.expand '$HOME'
 Depei               = Home .. '\\DEPEI'
 DepeiTemp           = Home .. '\\DepeiTemp'
 
-RestartNvimQtBat    = DepeiTemp .. '\\restart-nvim-qt.bat'
+RestartNvimQtPy     = DepeiTemp .. '\\restart-nvim-qt.py'
 
 CurRoot             = {}
 CurRoots            = {}
