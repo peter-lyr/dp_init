@@ -13,8 +13,8 @@ DepeiTemp           = Home .. '\\DepeiTemp'
 
 RestartNvimQtPy     = DepeiTemp .. '\\restart-nvim-qt.py'
 
-CurRoot             = {}
-CurRoots            = {}
+TelecopeCurRootTxt  = DataSub .. 'telescope-cur-root.txt'
+TelecopeCurRootsTxt = DataSub .. 'telescope-cur-roots.txt'
 
 Tab4SpaceFts        = {
   'c', 'cpp',
