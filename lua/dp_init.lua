@@ -9,6 +9,7 @@ DataSubMason        = DataSub .. 'Mason'
 Nvim                = vim.fn.stdpath 'config'
 Home                = vim.fn.expand '$HOME'
 Depei               = Home .. '\\DEPEI'
+DepeiRepos          = Depei .. '\\Repos'
 DepeiTemp           = Home .. '\\DepeiTemp'
 
 RestartNvimQtPy     = DepeiTemp .. '\\restart-nvim-qt.py'
@@ -35,6 +36,10 @@ end
 
 if vim.fn.isdirectory(Depei) == 0 then
   vim.fn.mkdir(Depei)
+end
+
+if vim.fn.isdirectory(DepeiRepos) == 0 then
+  vim.fn.mkdir(DepeiRepos)
 end
 
 if vim.fn.isdirectory(DepeiTemp) == 0 then
