@@ -17,6 +17,8 @@ RestartNvimQtPy     = DepeiTemp .. '\\restart-nvim-qt.py'
 TelecopeCurRootTxt  = DataSub .. 'telescope-cur-root.txt'
 TelecopeCurRootsTxt = DataSub .. 'telescope-cur-roots.txt'
 
+RootMarkers         = { '.svn', '.git', }
+
 Tab4SpaceFts        = {
   'c', 'cpp',
   'python',
