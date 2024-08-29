@@ -17,7 +17,21 @@ RestartNvimQtPy     = DepeiTemp .. '\\restart-nvim-qt.py'
 TelecopeCurRootTxt  = DataSub .. 'telescope-cur-root.txt'
 TelecopeCurRootsTxt = DataSub .. 'telescope-cur-roots.txt'
 
-RootMarkers         = { '.svn', '.git', }
+--   .cache
+--   app
+--   build
+--    .clang-format
+--    .clangd
+--    .gitignore
+--    CMakeLists.txt
+--    compile_commands.json
+--    earphone.workspace
+--    earphone.workspace.layout
+
+RootMarkers         = {
+  '.cache', 'build', '.clang-format', 'clangd', 'CMakeLists.txt', 'compile_commands.json',
+  '.svn', '.git',
+}
 
 Tab4SpaceFts        = {
   'c', 'cpp',
