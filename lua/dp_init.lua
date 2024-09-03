@@ -29,7 +29,7 @@ TelecopeCurRootsTxt = DataSub .. 'telescope-cur-roots.txt'
 --    earphone.workspace.layout
 
 RootMarkers         = {
-  '.cache', 'build', '.clang-format', 'clangd', 'CMakeLists.txt', 'compile_commands.json',
+  '.cache', 'build', '.clang-format', '.clangd', 'CMakeLists.txt', 'compile_commands.json',
   '.svn', '.git',
 }
 
